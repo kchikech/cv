@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hamza Kchikech - Fullstack developer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./uikit.theme.min.css" />
+    <script src="./uikit.min.js"></script>
+    <script src="./uikit-icons.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-54106693-11"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-54106693-11');
+    </script>
+</head>
+
+<body>
+    <div tm-header-transparent="dark" tm-header-transparent-placeholder class="uk-section-default" id="app">
+        <style>
+            @media print {
+                .uk-container {
+                    max-width: initial;
+                }
+
+                #app {
+                    zoom: 0.5;
+                }
+
+                .uk-width-expand\@s {
+                    flex: 1;
+                    min-width: 1px;
+                }
+            }
+        </style>
+        <div data-src="./static/about-bg.svg" uk-img
+            class="uk-background-norepeat uk-background-top-center uk-background-image@l uk-section uk-section-large">
+            <div class="uk-container">
+                <div uk-grid class="uk-margin">
+                    <div class="uk-width-expand@s">
+                        <h1 class="uk-heading-large">Hamza<br>Kchikech</h1>
+                        <div class="uk-h1 uk-margin auk-width-large@m">I’m just a [copy / past] Developer, Hire me and I will show you the opposite<span
+                                class="uk-text-muted">*</span> 24 years old Fullstack Developer</div>
+                        <p>I’m a web developer. I spend most of time coding (I mean, I spend most of time debugging and
+                            fixing bugs);
+                            I build websites / webApps with Nodejs and Vuejs sometimes PHP. I do it well.
+                            <br>I'm a contagious developer, I like to infect others with what I've learned so far.
+                        </p>
+                        <h2 class="uk-heading-bullet uk-margin-top">Contact</h2>
+                        <div>
+                            <ul uk-nav uk-grid
+                                class="uk-nav-default uk-nav-parent-icon uk-child-width-1-2@s uk-grid-small">
+                                <li class="uk-first-column"><a href="tel:+212674398989"><span uk-icon="icon: receiver"
+                                            class="uk-margin-small-right uk-icon">
+                                            <svg width="20" height="20" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg" data-svg="receiver">
+                                                <path fill="none" stroke="#000" stroke-width="1.01"
+                                                    d="M6.189,13.611C8.134,15.525 11.097,18.239 13.867,18.257C16.47,18.275 18.2,16.241 18.2,16.241L14.509,12.551L11.539,13.639L6.189,8.29L7.313,5.355L3.76,1.8C3.76,1.8 1.732,3.537 1.7,6.092C1.667,8.809 4.347,11.738 6.189,13.611">
+                                                </path>
+                                            </svg>
+                                        </span> +212 674398989</a>
+                                </li>
+                                <li><a href="mailto:hamza@kchikech.me"><span uk-icon="icon: mail"
+                                            class="uk-margin-small-right uk-icon"><svg width="20" height="20"
+                                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="mail">
+                                                <polyline fill="none" stroke="#000" points="1.4,6.5 10,11 18.6,6.5">
+                                                </polyline>
+                                                <path d="M 1,4 1,16 19,16 19,4 1,4 Z M 18,15 2,15 2,5 18,5 18,15 Z">
+                                                </path>
+                                            </svg></span> hamza@kchikech.me</a><a href="https://github.com/kchikech"><span
+                                            uk-icon="icon: github" class="uk-margin-small-right uk-icon"><svg width="20"
+                                                height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
+                                                data-svg="github">
+                                                <path
+                                                    d="M10,1 C5.03,1 1,5.03 1,10 C1,13.98 3.58,17.35 7.16,18.54 C7.61,18.62 7.77,18.34 7.77,18.11 C7.77,17.9 7.76,17.33 7.76,16.58 C5.26,17.12 4.73,15.37 4.73,15.37 C4.32,14.33 3.73,14.05 3.73,14.05 C2.91,13.5 3.79,13.5 3.79,13.5 C4.69,13.56 5.17,14.43 5.17,14.43 C5.97,15.8 7.28,15.41 7.79,15.18 C7.87,14.6 8.1,14.2 8.36,13.98 C6.36,13.75 4.26,12.98 4.26,9.53 C4.26,8.55 4.61,7.74 5.19,7.11 C5.1,6.88 4.79,5.97 5.28,4.73 C5.28,4.73 6.04,4.49 7.75,5.65 C8.47,5.45 9.24,5.35 10,5.35 C10.76,5.35 11.53,5.45 12.25,5.65 C13.97,4.48 14.72,4.73 14.72,4.73 C15.21,5.97 14.9,6.88 14.81,7.11 C15.39,7.74 15.73,8.54 15.73,9.53 C15.73,12.99 13.63,13.75 11.62,13.97 C11.94,14.25 12.23,14.8 12.23,15.64 C12.23,16.84 12.22,17.81 12.22,18.11 C12.22,18.35 12.38,18.63 12.84,18.54 C16.42,17.35 19,13.98 19,10 C19,5.03 14.97,1 10,1 L10,1 Z">
+                                                </path>
+                                            </svg></span> https://github.com/kchikech</a><a
+                                        href="https://www.linkedin.com/in/kchikech/"><span uk-icon="icon: linkedin"
+                                            class="uk-margin-small-right uk-icon"><svg width="20" height="20"
+                                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
+                                                data-svg="linkedin">
+                                                <path
+                                                    d="M5.77,17.89 L5.77,7.17 L2.21,7.17 L2.21,17.89 L5.77,17.89 L5.77,17.89 Z M3.99,5.71 C5.23,5.71 6.01,4.89 6.01,3.86 C5.99,2.8 5.24,2 4.02,2 C2.8,2 2,2.8 2,3.85 C2,4.88 2.77,5.7 3.97,5.7 L3.99,5.7 L3.99,5.71 L3.99,5.71 Z">
+                                                </path>
+                                                <path
+                                                    d="M7.75,17.89 L11.31,17.89 L11.31,11.9 C11.31,11.58 11.33,11.26 11.43,11.03 C11.69,10.39 12.27,9.73 13.26,9.73 C14.55,9.73 15.06,10.71 15.06,12.15 L15.06,17.89 L18.62,17.89 L18.62,11.74 C18.62,8.45 16.86,6.92 14.52,6.92 C12.6,6.92 11.75,7.99 11.28,8.73 L11.3,8.73 L11.3,7.17 L7.75,7.17 C7.79,8.17 7.75,17.89 7.75,17.89 L7.75,17.89 L7.75,17.89 Z">
+                                                </path>
+                                            </svg></span> https://linkedin.com/in/kchikech/</a> </li>
+                            </ul>
+
+                        </div>
+                        <h2 class="uk-heading-bullet uk-margin-medium-top">Hard Skills</h2>
+                        <div>
+                            <div uk-grid class="uk-grid-small uk-grid-match">
+                                <div><span class="uk-badge">PHP</span></div>
+                                <div><span class="uk-badge">Web Development</span></div>
+                                <div><span class="uk-badge">Node.js</span></div>
+                                <div><span class="uk-badge">JavaScript</span></div>
+                                <div><span class="uk-badge">Docker</span></div>
+                                <div><span class="uk-badge">HTML</span></div>
+                                <div><span class="uk-badge">Web Design</span></div>
+                                <div><span class="uk-badge">MySQL</span></div>
+                                <div><span class="uk-badge">Web Applications</span></div>
+                                <div><span class="uk-badge">CSS</span></div>
+                                <div><span class="uk-badge">Databases</span></div>
+                                <div><span class="uk-badge">Vue.js</span></div>
+                                <div><span class="uk-badge">Linux</span></div>
+                                <div><span class="uk-badge">Git</span></div>
+                                <div><span class="uk-badge">Web Services</span></div>
+                                <div><span class="uk-badge">Microsoft Office</span></div>
+                                <div><span class="uk-badge">HTML5</span></div>
+                                <div><span class="uk-badge">Github</span></div>
+                                <div><span class="uk-badge">MongoDB</span></div>
+                                <div><span class="uk-badge">NoSQL</span></div>
+                                <div><span class="uk-badge">NPM</span></div>
+                                <div><span class="uk-badge">Webpack</span></div>
+                                <div><span class="uk-badge">WebSockets</span></div>
+                                <div><span class="uk-badge">jQuery</span></div>
+                                <div><span class="uk-badge">C / C++</span></div>
+                            </div>
+                        </div>
+                        <h2 class="uk-heading-bullet uk-margin-medium-top">Soft Skills</h2>
+                        <div>
+                            <div uk-grid class="uk-grid-small uk-grid-match">
+                                <div><span class="uk-badge">Communication</span></div>
+                                <div><span class="uk-badge">Teamwork</span></div>
+                                <div><span class="uk-badge">Adaptability</span></div>
+                                <div><span class="uk-badge">Problem-Solving</span></div>
+                                <div><span class="uk-badge">Creativity</span></div>
+                                <div><span class="uk-badge">Work Ethic</span></div>
+                                <div><span class="uk-badge">Interpersonal Skills</span></div>
+                                <div><span class="uk-badge">Time Management</span></div>
+                                <div><span class="uk-badge">Leadership</span></div>
+                                <div><span class="uk-badge">Attention to Detail</span></div>
+                            </div>
+                        </div>
+                        <h2 class="uk-heading-bullet uk-margin-medium-top">Experience</h2>
+                        <div class="auk-width-large@m">
+                            <div uk-grid class="uk-child-width-1-1 uk-grid-match">
+                                <div>
+                                    <div class="uk-panel uk-margin-remove-first-child">
+                                        <div class="uk-text-meta uk-margin-top">Apr 2020-Nov 2020 | Full-time |
+                                            El-Hajeb,
+                                            Morocco</div>
+                                        <h3 class="uk-margin-small-top uk-margin-remove-bottom">IT Leader - Sochtrap
+                                        </h3>
+                                        <div class="uk-panel uk-margin-small-top">
+                                            <p>I took the responsibility for the efficient operation of applications,
+                                                hardware and telecommunications systems in the company.
+                                                This includes consultation with users to ensure that telecommunications
+                                                and internet systems conform to their hardware,
+                                                software and system specifications.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-panel uk-margin-remove-first-child">
+                                        <div class="uk-text-meta uk-margin-top">2019 -Present | Freelance |
+                                            Morocco</div>
+                                        <h3 class="uk-margin-small-top uk-margin-remove-bottom">Web developer
+                                        </h3>
+                                        <div class="uk-panel uk-margin-small-top">
+                                            <p>As a Freelancer Software Engineer, I'm working with many businesses on
+                                                various projects
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-panel uk-margin-remove-first-child">
+                                        <div class="uk-text-meta uk-margin-top">Mar 2018-Nov 2018 | Full-Time |
+                                            Tetouan, Morocco</div>
+                                        <h3 class="uk-margin-small-top uk-margin-remove-bottom">Digital leader -
+                                            Decathlon</h3>
+                                        <div class="uk-panel uk-margin-small-top">
+                                            <p>Support Decathlon store [Tetouan] in the digital transformation and
+                                                develop new omnicommerce services</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-panel uk-margin-remove-first-child">
+                                        <div class="uk-text-meta uk-margin-top">May 2017-Feb 2018 | Full-Time |
+                                            Tetouan, Morocco</div>
+                                        <h3 class="uk-margin-small-top uk-margin-remove-bottom">Departement Manager -
+                                            Decathlon</h3>
+                                        <div class="uk-panel uk-margin-small-top">
+                                            <p>As a Departement manager, I had the full responsibility for managing a
+                                                team to promote the Quechua brands at one of Decathlon's stores in the
+                                                Morocco.
+                                                Also Stock management, controlling stock quantity along side the cost
+                                                value.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-panel uk-margin-remove-first-child">
+                                        <div class="uk-text-meta uk-margin-top">Jun 2016-Aug 2016 | Internship |
+                                            Casablanca,
+                                            Morocco</div>
+                                        <h3 class="uk-margin-small-top uk-margin-remove-bottom">Web Developer -
+                                            Actifagency</h3>
+                                        <div class="uk-panel uk-margin-small-top">
+                                            <p>It was my first experience in web development, I made some things [looks
+                                                easy Now()]</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-expand@s">
+                        <h2 class="uk-heading-bullet uk-margin">Projects</h2>
+                        <div class="uk-margin-medium-bottom auk-width-large">
+                            <div uk-grid class="uk-child-width-1-1 uk-grid-match">
+                                <div>
+                                    <div class="uk-panel uk-margin-remove-first-child">
+                                        <div class="uk-text-meta uk-float-right">2021</div>
+                                        <h3 class="uk-margin-remove">Hypertube</h3>
+                                        <div class="uk-panel uk-margin-small-top">
+                                            <p>Web-app to stream torrent with P2P protocol (Popcorn-Time & Netflix-like). Stack : MERN (MongoDB , Express , React.js, Node.js)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-panel uk-margin-remove-first-child">
+                                        <div class="uk-text-meta uk-float-right">2021</div>
+                                        <h3 class="uk-margin-remove">OudyPlat (My own PHP Framwork)</h3>
+                                        <div class="uk-panel uk-margin-small-top">
+                                            Creating a dating site using Vue.js, Node JS (express) and MySQL.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-panel uk-margin-remove-first-child">
+                                        <div class="uk-text-meta uk-float-right">2020</div>
+                                        <h3 class="uk-margin-remove">Camagru</h3>
+                                        <div class="uk-panel uk-margin-small-top">
+                                            The 1st project in web branch @ 1337
+                                            A Social Network Service(SNS) for sharing pictures like Instagram. Using PHP / Css (framework: bulma) / JavaScript / jQuery
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-panel uk-margin-remove-first-child">
+                                        <div class="uk-text-meta uk-float-right">2019</div>
+                                        <h3 class="uk-margin-remove">FDF</h3>
+                                        <div class="uk-panel uk-margin-small-top">
+                                            <p>An introduction project to the graphics branch @ 1337 .
+                                                Reads in a height map to generate a 3D model that the user can interact with!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="uk-text-muted">There're projects I can't include here due to my agreement
+                                        to NDAs, also dump ones that I thought they were cool at that moment (but I
+                                        learned a lot doing working on them)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="uk-heading-bullet uk-margin">GitHub</h2>
+                        <div class="uk-margin-medium-bottom auk-width-large">
+                            <div uk-grid class="uk-child-width-1-1 uk-grid-match">
+                                <div>
+                                    <p>I published source code of Tools, Frameworks and Projects I made on GitHub, I
+                                        also contributed to other open sourced projects (fixing bugs, interducing
+                                        features)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="uk-heading-bullet uk-margin">Education</h2>
+                        <div class="uk-margin auk-width-large@m">
+                            <div uk-grid class="uk-child-width-1-1 uk-grid-medium uk-grid-match">
+                                <div>
+                                    <div class="uk-panel uk-margin-remove-first-child">
+                                        <div class="uk-text-meta uk-margin-top">2015-2018 | Diploma</div>
+                                        <h3 class="uk-margin-small-top uk-margin-remove-bottom">IT Development</h3>
+                                        <h4 class="uk-margin-small-top uk-margin-remove-bottom">ENS (Ecole Normale Superieure)</h4>
+                                    </div>
+                                    <div class="uk-panel uk-margin-remove-first-child">
+                                        <div class="uk-text-meta uk-margin-top">2019-Present | Certificat</div>
+                                        <h3 class="uk-margin-small-top uk-margin-remove-bottom">Software Engineering
+                                        </h3>
+                                        <h4 class="uk-margin-small-top uk-margin-remove-bottom">1337 | 42 Network</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

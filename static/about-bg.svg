@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="6000" viewBox="0 0 2560 6000">
+
+  <style>
+
+    @supports (-webkit-text-size-adjust:100%) {
+
+      svg {
+        animation-name: svg-hue-rotation;
+        animation-duration: 15s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes svg-hue-rotation {
+        0%, 100% { filter: hue-rotate(0); }
+        50% { filter: hue-rotate(30deg); }
+      }
+
+      .svg-ribbon{
+        animation-name: svg-polygon-animation;
+        animation-duration: 30s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes svg-polygon-animation {
+        0%, 100% { transform: skewY(1deg) translateY(0); }
+        50% { transform: skewY(13deg) translateY(-600px); }
+      }
+
+    }
+
+  </style>
+
+  <g class="svg-ribbon">
+    <polygon points="2466.11 1489.13 2465.67 1491.8 2465.45 1491.08 2350.78 1828.98 2350.78 1828.99 2350.77 1828.99 1685.65 2293.89 2091.91 1750.32 2285.75 1615.02 2465.07 1489.85 2466.11 1489.13" fill="#0c4b9c"/>
+    <path d="M2524.62,3204.47l-732.39-561.16-106.56-349.22,477.49,366Z" fill="#0559c7"/>
+    <path d="M2091.88,1750.34l-299.66,893L1685.56,2294Z" fill="#0451b5"/>
+    <polygon points="2524.6 3204.5 2440.86 3631.28 2194.45 3925.09 2062.02 4083.01 2024.24 3804.84 2524.6 3204.5" fill="#0c74fe"/>
+    <polygon points="2524.6 3204.5 2440.86 3631.28 2163.16 2660.13 2524.6 3204.5" fill="#0c74fe"/>
+    <polygon points="2435.01 1391.59 2176.93 1256.99 1809.94 1067.75 1717.33 830.41 1717.33 830.4 1717.34 830.4 1902.56 926.26 2108.87 1033.04 2435.01 1391.59" fill="#0c4b9c"/>
+    <polygon points="3015.02 247.11 2135.48 570.45 1808.46 690.67 2326.43 278.75 2326.44 278.74 2938.44 52.54 3015.02 247.11" fill="#0c74fe"/>
+    <polygon points="2326.43 278.75 2135.48 570.45 1902.56 926.26 1809.94 1067.75 1717.33 830.41 1717.33 830.4 1717.34 830.4 1808.45 690.68 1808.46 690.67 2326.43 278.75" fill="#0c4b9c"/>
+    <polygon points="2465.45 1491.08 2350.78 1828.98 2350.78 1829 2350.77 1828.99 2176.93 1256.99 2108.87 1033.04 2435.01 1391.59 2435.02 1391.6 2435.03 1391.61 2465.07 1489.85 2465.45 1491.08" fill="#0c74fe"/>
+    <polygon points="3433.84 4800.76 3001.74 4751.27 2062.02 4083.02 2062.02 4083.01 2024.24 3804.84 3433.84 4800.76" fill="#0a75ff"/>
+    <polygon points="2466.11 1489.13 2465.67 1491.8 2465.45 1491.08 2466.11 1489.13" fill="#0005f9"/>
+  </g>
+
+</svg>
